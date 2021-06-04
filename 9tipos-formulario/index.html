@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ejemplo de un formulario básico en html</h1>
+    <form >
+        <label>Nombre:</label><br>
+        <input type="text" name="buscador" placeholder="Indica tu nombre"><br><br>
+        <label>Apellido:</label><br>
+        <input type="text" name="buscador" placeholder="Indica tu apellido"><br><br>
+    
+       <label>Escoja su sexo:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br><br>
+
+            <select name="" id="">
+                <option value="">Azul</option>
+                <option value="">Rojo</option>
+                <option value="">Verde</option>
+                <option value="">Morado</option>
+                <option value="">Marrón</option>
+                
+            </select><br><br>
+
+                <button type="submit">Enviar</button>
+                <form>
+                    <h1><label>Formulario con datalist</label></h1>
+                    <label>Elija el País:</label><br>
+                    <input list="Paises"/>
+                    
+                <datalist id="Paises">
+                <option value="Ecuador">Ecuador</option>
+                <option value="Perú">Perú</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Colombia">Colombia</option>
+                </datalist>
+                
+
+    </form>    
+</body>
+</html>
